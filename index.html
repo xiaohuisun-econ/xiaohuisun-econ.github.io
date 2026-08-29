@@ -1,12 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Xiaohui Sun</title>
+  <meta name="description" content="Academic website of Xiaohui Sun, economist.">
+  <title>Xiaohui Sun | Economist</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Xiaohui Sun</h1>
-  <p>Welcome to my academic website.</p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Xiaohui Sun</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="other.html">Other</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <aside class="profile" aria-label="Profile">
+      <!-- Replace this div with: <div class="profile-photo"><img src="profile.jpg" alt="Xiaohui Sun"></div> -->
+      <div class="profile-photo" aria-label="Photo placeholder">XS</div>
+      <h2>Xiaohui Sun</h2>
+      <p class="profile-role">[Ph.D. Candidate in Economics]<br>[Rutgers University]</p>
+      <ul class="profile-links">
+        <li><span><span class="icon">⌖</span>[City, State]</span></li>
+        <li><a href="mailto:xiaohui.sun@rutgers.edu"><span class="icon">@</span>Email</a></li>
+        <li><a href="https://github.com/xiaohuisun-econ"><span class="icon">⌘</span>GitHub</a></li>
+      </ul>
+    </aside>
+
+    <article class="content">
+      <h1>Xiaohui Sun</h1>
+      <p class="lead">
+        I am an economist working on [research fields]. My research studies
+        [one short sentence describing your main research question].
+      </p>
+
+      <section class="section" aria-labelledby="interests-heading">
+        <h2 id="interests-heading">Research interests</h2>
+        <ul class="tags">
+          <li class="tag">[Field one]</li>
+          <li class="tag">[Field two]</li>
+          <li class="tag">[Field three]</li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="jmp-heading">
+        <h2 id="jmp-heading">Job market paper</h2>
+        <div class="paper featured">
+          <p class="eyebrow">Job market paper</p>
+          <h3>[Add your job market paper title]</h3>
+          <p>[Add a concise two-sentence summary of the question, method, and main result.]</p>
+          <div class="paper-links">
+            <a href="https://github.com/xiaohuisun-econ/papers/raw/refs/heads/main/JMP_XSun.pdf">PDF ↗</a>
+            <a href="research.html">More research →</a>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">© 2026 Xiaohui Sun</div>
+  </footer>
 </body>
 </html>
+
