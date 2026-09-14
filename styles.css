@@ -131,6 +131,14 @@ a:focus-visible {
   line-height: 1.25;
 }
 
+.profile-pronunciation {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 .profile-role {
   margin: 0;
   color: var(--muted);
@@ -370,7 +378,7 @@ a:focus-visible {
   }
 
   .profile-photo {
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 4;
     font-size: 2.3rem;
   }
 
